@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin:0px;
+    text-decoration: none;
+}
+body{
+    
+    font-size: 20px;
+    padding-bottom:10px;
+    margin-left: 15px;
+}
+.asmara{
+    margin-top: 80px;
+    margin-left: 40px;
+    font-size: 29px;
+}
+.asmara:hover{
+    color: greenyellow;
+}
+.hr{
+    width: 100%;
+    margin-right: 30px;
+    margin-left: 30px;
+   }
+.image{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    margin-bottom: 50px;
+    margin-right: 80px;
+}
+.image img{
+    align-self: right;
+    display: flex;
+    height: 200px;
+    width: 300px;
+    padding:10px;
+
+}
+.container{
+    margin-left: 0px;
+}
+.home{
+    color: aqua;
+}
+h1{
+    margin-top: 20px;
+  
+}
+.button{
+    margin-top: 0px;
+}
+.navbar{
+    text-decoration: none;
+}
+ ul li{
+    float:left;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+hr{
+    width:50%;
+    margin-bottom: 20px;
+    
+}
+
+.wo{
+    background-color: azure;
+    
+    height: 50px;
+    width: 50%;
+}
+.wo2{
+    width:50px ;
+    height: 30px;
+}
+.wo3{
+    background-color: azure;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.meme{
+    color: orange;
+}
+.wo4{
+    width="50px"
+}
+.footer{
+    margin-top: 100px;
+}
+
+

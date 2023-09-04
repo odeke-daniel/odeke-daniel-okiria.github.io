@@ -1,0 +1,57 @@
+*{
+	box-sizing: border-box;
+}
+.footer{
+	background: black;
+	width: 100%;
+	height: 300px;
+
+}
+.p{
+	color: white;
+}
+.h1{
+	color: white;
+	text-transform: uppercase;
+	height: 40px;
+}
+.cols{
+text-align-last: center;
+padding-top: 50px;
+}
+.button{
+	background-color: green;
+	text-transform:uppercase;
+width:12%;
+height:34px;
+
+
+text-align:center;
+}
+.in{
+	height:34px;
+
+
+}
+.button:hover{
+color:white;
+}
+.lfooter{
+	background-color: gray;
+	position: absolute;
+	width: 98.8%;
+	height: 100px;
+
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	float: right;
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
+a:hover{
+color:white;
+}

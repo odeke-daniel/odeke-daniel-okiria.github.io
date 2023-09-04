@@ -1,0 +1,192 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    }
+    
+    body{
+    font-family:'poppins',sans-serif;
+    font-size:16px;
+    line-height:1.5;
+    color:black;
+    background-color:gray;
+    }
+    .nava{
+        height: 400px;
+        width: 100%;
+        background-image: url("images/ladi2.png");
+        
+    }
+    .contact{
+        margin-top: 80px;
+        margin-left: 40px;
+        font-size: 29px;
+    }
+    .contact:hover{
+        color: greenyellow;
+    }
+    
+    .navs{
+        height: 65px;
+        width: 100%;
+        background-color: black;
+        
+        color: white;
+        padding-top: 12px;
+        opacity: .7;
+    }
+    .upup{
+        text-align: center;
+    }
+    .na1{
+        width: 100%;
+        height: 150px;
+        background-color:black ;
+    }
+    .navimg{
+        height: 67%;
+        width: 130px;
+        margin-left: 10px;
+    }
+    ul li ul li{
+        display: none;
+    }
+    ul li:hover ul li{
+        display: block;
+        background-color: gray;
+    }
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        display: block;
+        margin: 1px;
+        color: green;
+    
+    
+    }
+    ul li ul li{
+        display: none;
+    }
+    
+    ul li{
+        float: left;
+        margin-right: 0px;
+        list-style: none;
+    
+        opacity: .8;
+        width: 150px;
+        height: 45px;
+        text-align: center;
+        line-height: 20px;
+        color: green;
+    }
+    .container{
+        background-color: white;
+        height:1300px;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+    }
+    .items{
+        background-color: white;
+        height: 200px;
+        width: 20%;
+        margin: 15px;
+        float: left;
+        
+    }
+    .items:nth-of-type(1){
+        width: 60%;
+        height: 1200px;
+        margin-left: 80px;
+
+        
+    }
+    .conim{
+        height: 30%;
+    }
+    .items:nth-of-type(3){
+     background-color: white;
+        width: 25%;
+        height: 500px;
+    }
+    .subit{
+      background-image: url("images/r1.jpg");
+        margin: 8px;
+        width: 85%;
+        height: 50%;
+
+    }
+   .items:nth-of-type(2){
+    background-image: url("images/30.jpg");
+   }
+    h2{
+        padding-top: 20px;
+    }
+    hr{
+        padding-top: 15px;
+        padding-bottom: 20px;
+        border-bottom-style: none;
+        border-left-style: none;
+    }
+    form{
+        width: 100%;
+    }
+    .form{
+        height: 30px;
+        width: 45%;
+        margin-right: 20px;
+    }
+    .subject{
+        margin: 20px;
+        height: 30px;
+        width: 93%;
+        margin-left: 0;
+    }
+    textarea{
+        height: 120px;
+        width: 93%;
+    }
+    button{
+        background-color: green;
+        height: 40px;
+        width: 110px;
+        margin-top: 20px;
+    }
+    button:hover{
+        color: white;
+    }
+    .left{
+        padding-left: 900px;
+    }
+    
+    
+    
+    @media(max-width:768px){
+    .header .container{
+    flex-direction:column;
+    padding-top:20px;
+    text-align:center;
+    }
+    
+    .cols{
+        margin-top: 100px;
+    }
+    footer{
+        margin-top: 200px;
+    }
+    
+    .boxes .container{
+    dispaly:flex;
+    text-align:center;
+    }
+    @media(max-width:768px){
+        .header .container{
+        flex-direction:column;
+        padding-top:20px;
+        text-align:center;
+        }
+    
+    
+    
